@@ -23,16 +23,32 @@
   </head>
 
   <body>
+    <script src="javascript.js"></script>
+
+   
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
+  <div class="row"><div>Drew</div><textarea>Clay</textarea><button>Cake</button>     </div>
+
+  <div>Dessert after Dinner</div>
       <!-- Timeblocks go here -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  
+    <script>
+    $("#currentDay").text(moment().format());
+
+    console.log(moment().format());
+  </script>
+  
+  
+  
   </body>
 </html>
