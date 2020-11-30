@@ -10,6 +10,12 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
 
+## Screenshot of Deployed Application
+
+![Day Scheduler](Scheduler.png);
+
+
+
 ## Tasks
 
 I created a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -37,3 +43,8 @@ The app should display standard business hours (9 a.m. to 5 p.m.). Each time slo
 ## API
 
 You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+
+
+## Link to Deployed Application
+
+[Deployable Link Here]()
